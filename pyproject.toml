@@ -1,0 +1,26 @@
+[project]
+name = "interrupt-26-voice-workshop"
+version = "0.1.0"
+description = "A minimal Pipecat and Gemini Live voice-agent workshop with LangSmith tracing."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-genai>=1.75,<3",
+    "langsmith[pipecat]>=0.10.14,<0.11",
+    "numpy>=1.26,<3",
+    "pipecat-ai[local,openai,tracing]>=1.4,<2",
+    "python-dotenv>=1,<2",
+    "scipy>=1.13,<2",
+    "sounddevice>=0.4,<1",
+]
+
+[project.scripts]
+pipecat-demo = "voice_workshop.pipecat_agent:main"
+gemini-demo = "voice_workshop.gemini_agent:main"
+
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/voice_workshop"]
