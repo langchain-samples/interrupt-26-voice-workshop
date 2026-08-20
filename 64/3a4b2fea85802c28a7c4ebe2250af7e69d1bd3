@@ -1,0 +1,53 @@
+uv.lock
+  s_535d44f74cd84d::t_999627e3c263d2 1-3118
+README.md
+  h_3a9d271fbf3886 61-75
+  h_3a9d271fbf3886 1-60,76-92
+.env.example
+  h_3a9d271fbf3886 1-5
+.github/instructions/corridor.instructions.md
+  h_3a9d271fbf3886 1-7
+.gitignore
+  h_3a9d271fbf3886 1-27
+.python-version
+  h_3a9d271fbf3886 1
+pyproject.toml
+  h_3a9d271fbf3886 1-26
+src/voice_workshop/__init__.py
+  h_3a9d271fbf3886 1
+src/voice_workshop/audio.py
+  h_3a9d271fbf3886 1-171
+src/voice_workshop/gemini_agent.py
+  h_3a9d271fbf3886 1-199
+src/voice_workshop/pipecat_agent.py
+  h_3a9d271fbf3886 1-144
+src/voice_workshop/tracing.py
+  h_3a9d271fbf3886 1-26
+tests/test_audio.py
+  h_3a9d271fbf3886 1-33
+tests/test_config.py
+  h_3a9d271fbf3886 1-22
+tests/test_gemini_agent.py
+  h_3a9d271fbf3886 1-30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "643a4b2fea85802c28a7c4ebe2250af7e69d1bd3",
+  "prompts": {},
+  "humans": {
+    "h_3a9d271fbf3886": {
+      "author": "Caroline di Vittorio <43390382+carolinedivittorio@users.noreply.github.com>"
+    }
+  },
+  "sessions": {
+    "s_535d44f74cd84d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a020bc-25c2-7da0-8be5-e463c3204423",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Caroline di Vittorio <43390382+carolinedivittorio@users.noreply.github.com>"
+    }
+  }
+}
