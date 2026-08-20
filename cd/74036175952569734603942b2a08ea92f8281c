@@ -1,0 +1,19 @@
+uv.lock
+  s_535d44f74cd84d::t_999627e3c263d2 1-3118
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "cd74036175952569734603942b2a08ea92f8281c",
+  "prompts": {},
+  "sessions": {
+    "s_535d44f74cd84d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a020bc-25c2-7da0-8be5-e463c3204423",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Caroline di Vittorio <43390382+carolinedivittorio@users.noreply.github.com>"
+    }
+  }
+}
